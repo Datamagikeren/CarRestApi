@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <Reference Include="CarClassLibrary">
-      <HintPath>bin\Debug\net6.0\CarClassLibrary.dll</HintPath>
+      <HintPath>..\CarClassLibrary.dll</HintPath>
     </Reference>
   </ItemGroup>
 
