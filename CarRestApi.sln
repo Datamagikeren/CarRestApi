@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestApi", "CarRestApi\CarRestApi.csproj", "{E27F3AB6-88CA-4000-BAA0-037EBD56F855}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRestApi", "CarRestApi\CarRestApi.csproj", "{E27F3AB6-88CA-4000-BAA0-037EBD56F855}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestApiTests", "CarRestApiTests\CarRestApiTests.csproj", "{7070CFAA-2619-4E44-9D4B-15510EF7DAE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRestApiTests", "CarRestApiTests\CarRestApiTests.csproj", "{7070CFAA-2619-4E44-9D4B-15510EF7DAE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarClassLibrary", "..\CarClassLibrary\CarClassLibrary\CarClassLibrary.csproj", "{D814F21D-A260-4DAC-93EC-7CC941872D2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarClassLibraryTests", "..\CarClassLibrary\CarClassLibraryTests\CarClassLibraryTests.csproj", "{52196811-C41B-4FD2-A9C9-983113C66532}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{7070CFAA-2619-4E44-9D4B-15510EF7DAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7070CFAA-2619-4E44-9D4B-15510EF7DAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7070CFAA-2619-4E44-9D4B-15510EF7DAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D814F21D-A260-4DAC-93EC-7CC941872D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D814F21D-A260-4DAC-93EC-7CC941872D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D814F21D-A260-4DAC-93EC-7CC941872D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D814F21D-A260-4DAC-93EC-7CC941872D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52196811-C41B-4FD2-A9C9-983113C66532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52196811-C41B-4FD2-A9C9-983113C66532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52196811-C41B-4FD2-A9C9-983113C66532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52196811-C41B-4FD2-A9C9-983113C66532}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
