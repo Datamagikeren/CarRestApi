@@ -10,10 +10,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="CarClassLibrary">
-      <HintPath>bin\Debug\net6.0\CarClassLibrary.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
