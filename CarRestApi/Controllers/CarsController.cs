@@ -17,6 +17,7 @@ namespace CarRestApi.Controllers
         }
         // GET: api/<CarsController>
         [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         [HttpGet]
         public ActionResult<IEnumerable<Car>> GetAll()
         {
